@@ -1,4 +1,4 @@
-Railway Reservation System
+# Railway Reservation System
 
 This project, built for the Fundamentals and Practice of Software Development, is an integrated train ticket booking software, that facilitates users to login and book tickets for their journey, along with several helpful features such as connected train suggestions, confirmation probability prediction and email ticket and payment confirmation.
 
@@ -85,5 +85,7 @@ Executed as a menu driven program that gives the user choice to course of action
 
 This integrated software project implemented in C programming language was developed as a part of \[UCS2201-Fundamentals and Practice of Software Development\] course in the Second Semester of B.E. Computer Science and Engineering Degree offered by SSN institutions.
 
-## Demo
+# Demo
+
+This is a demo video of the application. Since the file size is large, download the raw video to view it.
 ![Demo Video](demo-rrs.mp4)
