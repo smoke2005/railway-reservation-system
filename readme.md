@@ -86,4 +86,4 @@ Executed as a menu driven program that gives the user choice to course of action
 This integrated software project implemented in C programming language was developed as a part of \[UCS2201-Fundamentals and Practice of Software Development\] course in the Second Semester of B.E. Computer Science and Engineering Degree offered by SSN institutions.
 
 ## Demo
-![Demo Video](demo_rrs.mp4)
+![Demo Video](demo-rrs.mp4)
