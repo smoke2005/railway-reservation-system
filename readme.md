@@ -2,7 +2,7 @@
 
 This project, built for the Fundamentals and Practice of Software Development, is an integrated train ticket booking software, that facilitates users to login and book tickets for their journey, along with several helpful features such as connected train suggestions, confirmation probability prediction and email ticket and payment confirmation.
 
-# TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
 1. Aim
 2. Features Offered
@@ -11,11 +11,11 @@ This project, built for the Fundamentals and Practice of Software Development, i
 5. Compilers Used
 6. Files Used
 
-# AIM
+## AIM
 
 Railway Reservation System of team B1_7 aims to give passengers booking train tickets online a smooth and user-friendly booking process, provide choices for the user to apply their preferences and give the users a comprehensive idea of their journey, to help them make appropriate decisions.
 
-# FEATURES OFFERED
+## FEATURES OFFERED
 
 - Log in and Sign in with user details and password
 - Display of available trains for journey
@@ -26,9 +26,9 @@ Railway Reservation System of team B1_7 aims to give passengers booking train ti
 - Waiting list and RAC booking
 - Probability of confirmation, in the case of waiting list, based on historic database
 
-# LIBRARIES USED
+## LIBRARIES USED
 
-## Standard Libraries
+### Standard Libraries
 
 - ‘stdio.h’: For implementing I/O operations
 - ‘string.h’: For using built-in functions for strings
@@ -37,7 +37,7 @@ Railway Reservation System of team B1_7 aims to give passengers booking train ti
 - ‘ctype.h’: For character classification, to be used in error handling
 - ‘math.h’: For using mathematical built-in functions
 
-## User Defined Library Functions
+### User Defined Library Functions
 
 - login_v1.h: User authentication module
 - booking_v2.h: Booking management module
@@ -52,7 +52,7 @@ Railway Reservation System of team B1_7 aims to give passengers booking train ti
 - prediction.h: Probability of waiting list ticket getting confirmed
 - cancelation.h: Canceling tickets, modifying available, updating reservation chart and updating waiting list and RAC list.
 
-# INTEGRATION/EXECUTION SEQUENCE
+## INTEGRATION/EXECUTION SEQUENCE
 
 Executed as a menu driven program that gives the user choice to course of action, the main C function, named ‘main_v2.c’ begins execution.
 
@@ -66,7 +66,7 @@ Executed as a menu driven program that gives the user choice to course of action
 8. Then payment generation module, which calculates ticket fare in dynamic fare calculation and gives the passenger a PNR number executes, along with email generation function in mail_v1.h .
 9. Once successfully booked, user gets an option to exit or to cancel ticket. If cancel ticket operation is chosen, cancelation.h module executes, user needs to enter their PNR number and name for the ticket to be canceled and the corresponding ticket will be canceled.
 
-# FILES USED
+## FILES USED
 
 - “modified_trains(1).csv”: Data on train number, train name, train journey stations, arrival time, departure time, travel duration. This data was downloaded from IRCTC website and is used after proper preprocessing.
 - “pred_data33.csv”: Historic data used for the probability prediction module.
@@ -75,17 +75,17 @@ Executed as a menu driven program that gives the user choice to course of action
 - “waiting_list.csv”: User details along with waiting list number.
 - “rac_list.csv”: User details along with rac number.
 
-# COMPILERS USED
+## COMPILERS USED
 
 - C Compiler in terminal, accessed using command prompt.
 - Code blocks application compiler.
 - Replit online C compiler.
 
-# ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS
 
 This integrated software project implemented in C programming language was developed as a part of \[UCS2201-Fundamentals and Practice of Software Development\] course in the Second Semester of B.E. Computer Science and Engineering Degree offered by SSN institutions.
 
-# Demo
+## Demo
 
 This is a demo video of the application. Since the file size is large, download the raw video to view it.
 ![Demo Video](demo-rrs.mp4)
